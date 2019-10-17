@@ -33,3 +33,9 @@ This notebook aggregated the data for each borough and join it to data from the 
 ## 7_Data_Modeling.ipynb
 
 This model extends the regression models from `6_Borough_Analysis.ipynb`
+
+## Additional files
+
+These files are produced by pandas_profiling which examines each field in the dataset:
+`report_cleaned.html`
+`report_raw.html`

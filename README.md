@@ -28,7 +28,7 @@ This notebook examines the listed price and it's distribution for each property 
 
 ## 6_Borough_Analysis.ipynb
 
-This notebook aggregated the data for each borough and join it to data from the Mayor of London for each borough and creates regression models and geogrpahic plots.
+This notebook aggregated the data for each borough and join it to data from the Mayor of London for each borough and creates regression models and geographic plots.
 
 ## 7_Data_Modeling.ipynb
 

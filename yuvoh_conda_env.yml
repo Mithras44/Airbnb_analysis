@@ -4,6 +4,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - _tflow_select=2.1.0=gpu
+  - absl-py=0.8.0=py37_0
+  - astor=0.8.0=py37_0
   - attrs=19.2.0=py_0
   - backcall=0.1.0=py37_0
   - blas=1.0=mkl
@@ -16,6 +19,8 @@ dependencies:
   - click-plugins=1.1.1=py_0
   - cligj=0.5.0=py_0
   - colorama=0.4.1=py37_0
+  - cudatoolkit=10.0.130=0
+  - cudnn=7.6.0=cuda10.0_0
   - curl=7.65.3=h4496350_0
   - cycler=0.10.0=py37_0
   - decorator=4.4.0=py37_1
@@ -26,9 +31,12 @@ dependencies:
   - fiona=1.8.4=py37h22081e2_0
   - freetype=2.9.1=ha9979f8_1
   - freexl=1.0.5=hd288d7e_1002
+  - gast=0.3.2=py_0
   - gdal=2.3.3=py37hdf43c64_0
   - geopandas=0.6.1=py_0
   - geos=3.7.1=h33f27b4_0
+  - grpcio=1.16.1=py37h351948d_1
+  - h5py=2.9.0=py37h5e291fa_0
   - hdf4=4.2.13=h712560f_2
   - hdf5=1.10.4=nompi_hcc15c50_1106
   - icc_rt=2019.0.0=h0cc432a_1
@@ -51,6 +59,8 @@ dependencies:
   - jupyterlab=1.1.4=pyhf63ae98_0
   - jupyterlab_server=1.0.6=py_0
   - kealib=1.4.10=heacb130_1003
+  - keras-applications=1.0.8=py_0
+  - keras-preprocessing=1.1.0=py_1
   - kiwisolver=1.1.0=py37ha925a31_0
   - krb5=1.16.3=hdd46e55_1001
   - libcurl=7.65.3=h4496350_0
@@ -60,6 +70,7 @@ dependencies:
   - libnetcdf=4.6.1=h411e497_2
   - libpng=1.6.37=h2a8f88b_0
   - libpq=11.5=hb0bdaea_1
+  - libprotobuf=3.9.2=h7bd577a_0
   - libsodium=1.0.16=h9d3ae62_0
   - libspatialindex=1.8.5=he025d50_4
   - libspatialite=4.3.0a=h6a0152f_1026
@@ -71,6 +82,7 @@ dependencies:
   - m2w64-gcc-libs-core=5.3.0=7
   - m2w64-gmp=6.1.0=2
   - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
+  - markdown=3.1.1=py37_0
   - markupsafe=1.1.1=py37he774522_0
   - matplotlib=3.1.1=py37hc8f65d3_0
   - matplotlib-base=3.1.1=py37h2852a4a_1
@@ -99,10 +111,12 @@ dependencies:
   - proj4=5.2.0=h6538335_1006
   - prometheus_client=0.7.1=py_0
   - prompt_toolkit=2.0.10=py_0
+  - protobuf=3.9.2=py37h33f27b4_0
   - pygments=2.4.2=py_0
   - pyparsing=2.4.2=py_0
   - pyproj=1.9.6=py37h6782396_0
   - pyqt=5.9.2=py37h6538335_2
+  - pyreadline=2.1=py37_1
   - pyrsistent=0.15.4=py37he774522_0
   - python=3.7.4=h5263a28_0
   - python-dateutil=2.8.0=py37_0
@@ -123,6 +137,12 @@ dependencies:
   - six=1.12.0=py37_0
   - sqlite=3.30.0=he774522_0
   - statsmodels=0.10.1=py37h8c2d366_0
+  - tensorboard=1.14.0=py37he3c9ec2_0
+  - tensorflow=1.14.0=gpu_py37h5512b17_0
+  - tensorflow-base=1.14.0=gpu_py37h55fc52a_0
+  - tensorflow-estimator=1.14.0=py_0
+  - tensorflow-gpu=1.14.0=h0d30ee6_0
+  - termcolor=1.1.0=py37_1
   - terminado=0.8.2=py37_0
   - testpath=0.4.2=py37_0
   - tk=8.6.9=hfa6e2cd_1003
@@ -132,10 +152,12 @@ dependencies:
   - vs2015_runtime=14.16.27012=hf0eaf9b_0
   - wcwidth=0.1.7=py37_0
   - webencodings=0.5.1=py37_1
+  - werkzeug=0.16.0=py_0
   - wheel=0.33.6=py37_0
   - widgetsnbextension=3.5.1=py37_0
   - wincertstore=0.2=py37_0
   - winpty=0.4.3=4
+  - wrapt=1.11.2=py37he774522_0
   - xerces-c=3.2.2=h6538335_1004
   - xlrd=1.2.0=py37_0
   - xz=5.2.4=h2fa13f4_1001

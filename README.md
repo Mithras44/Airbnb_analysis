@@ -32,7 +32,7 @@ This notebook aggregated the data for each borough and join it to data from the 
 
 ## 7_Data_Modeling.ipynb
 
-This model extends the regression models from `6_Borough_Analysis.ipynb`
+This model extends the regression models from `6_Borough_Analysis.ipynb` using Keras but needs to be expanded with different logarithmic regression models
 
 ## Additional files
 
